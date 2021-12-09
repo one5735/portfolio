@@ -2,7 +2,7 @@
 
 /*html에 fontsize를 10으로 고정하고, 이를 기준으로 body에 1rem으로 적용하면 모든 폰트와 화면에서 1rem=10px의 기준으로 정의된다.*/
 html{font-size: 10px; scroll-behavior: smooth;}
-body{background-color: #FFF3F0;}
+body{background-color: #FFF3F0; }
 a{text-decoration: none;color:#ffffff;}
 
 
@@ -62,6 +62,7 @@ footer > .footer_wrap > .footer_txt {line-height: 10rem; font-family: 'Nunito', 
 .main_menu >ul {position: absolute;  display: flex;justify-content: space-between;align-items: center;list-style:none;}
 .main_menu >ul >li >a{float: left; margin-right: 13rem; font-family: 'Nunito', sans-serif; font-weight: 800;font-size: 2.3rem;letter-spacing: 0.1rem;color: #28808A;}
 
+section {overflow-x: hidden; overflow-y: hidden;}
 section > .main_visual { width: 100%; height: 80rem; display: flex; margin-top: 3rem; margin: 0 auto;
   background-image: url("../img/animation.gif");
 background-repeat: no-repeat; background-size: cover;}
@@ -97,9 +98,9 @@ section > .topbt {display:scroll;position:fixed;bottom:25px;right:45px;cursor:po
 
 
 
-.contents {padding-top: 15rem; width: 100%; text-align: center; padding-bottom: 3rem; margin: 0 auto;}
+.contents {padding-top: 15rem; width: 1920px; text-align: center; padding-bottom: 3rem; margin: 0 auto;}
 section .title {margin-top: 35rem; margin-bottom: 35rem;}
-.work >article {margin-bottom: 18rem;}
+.work >article {margin-bottom: 18rem; width: 100%;}
 .box05 {margin-top: 35rem;}
 
 
