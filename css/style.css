@@ -1,0 +1,110 @@
+*{margin: 0;}
+
+/*html에 fontsize를 10으로 고정하고, 이를 기준으로 body에 1rem으로 적용하면 모든 폰트와 화면에서 1rem=10px의 기준으로 정의된다.*/
+html{font-size: 10px; scroll-behavior: smooth;}
+body{background-color: #FFF3F0;}
+a{text-decoration: none;color:#ffffff;}
+
+
+#intro_top {height: 11rem;z-index: 1000;width: 100%;}
+.header_wrap {margin: auto;width: 943px;height: 11rem;display: flex;justify-content: space-between;align-items: center;}
+.logo {display: inline-block; line-height: 11rem;}
+.logo img {vertical-align:middle;}
+.sns {float: right; line-height: 11rem;}
+.sns .mail {display: inline-block; margin-right: 2.5rem;}
+.sns .instagram {display: inline-block; margin-right: 2.5rem;}
+.sns .twitter {display: inline-block;}
+.sns img {vertical-align:middle;}
+
+
+section > .visual { width: 100%; height: 800px; display: flex; position: relative; margin: 0 auto;
+  background-image: url("../img/animation.gif");
+background-repeat: no-repeat; background-size: cover;}
+section > .visual .menu {width: 943px; height: 15rem; float: left; margin: 0 auto; bottom: 0px; position: absolute; left: 50%; margin-left: -471.5px;}
+
+section > .visual .menu .bt_01 {width: 173px; height: 15rem; display: inline-block; margin-right: 1.5rem;}
+section > .visual .menu .bt_01:hover {background-image:url("../img/00_vl_01.gif" );
+background-position: top; background-repeat: no-repeat;}
+
+
+
+section > .visual .menu .bt_02 {width: 173px;height: 15rem;display: inline-block; margin-right: 1.5rem;}
+section > .visual .menu .bt_02:hover {background-image:url("../img/00_vl_02.gif" );
+background-position: top; background-repeat: no-repeat; }
+
+
+section > .visual .menu .bt_03 {width: 173px;height: 15rem; display: inline-block; margin-right: 1.5rem;}
+section > .visual .menu .bt_03:hover {background-image:url("../img/00_vl_03.gif");
+background-position: top; background-repeat: no-repeat;}
+
+section > .visual .menu .bt_04 {width: 173px;height: 15rem; display: inline-block; margin-right: 1.5rem;}
+section > .visual .menu .bt_04:hover {background-image:url("../img/00_vl_04.gif");
+background-position: top; background-repeat: no-repeat;}
+
+section > .visual .menu .bt_05 {width: 173px; height: 15rem;display: inline-block;}
+section > .visual .menu .bt_05:hover {background-image:url("../img/00_vl_05.gif");
+background-position: top; background-repeat: no-repeat;}
+
+section > .visual .menu .bt {display: inline-block; margin-right: 1.5rem; margin-top:117px; }
+
+
+footer > .footer_wrap {width: 100%;height: 10rem; text-align: center; background-color: #FFF3F0;}
+footer > .footer_wrap > .footer_txt {line-height: 10rem; font-family: 'Nunito', sans-serif; font-weight: 800;font-size: 1.9rem;letter-spacing: -0.03rem;color: #28808A;}
+
+
+
+
+
+/*메인페이지*/
+.main_header {height: 165px; width: 100%;}
+.main_logo {height: 80px; text-align:center; padding-top: 30px; padding-bottom: 17px;}
+.main_menu {height: 30px; width: 100%;border: 0px solid red;display: flex;justify-content: center;}
+.main_menu >ul {position: absolute;  display: flex;justify-content: space-between;align-items: center;list-style:none;}
+.main_menu >ul >li >a{float: left; margin-right: 13rem; font-family: 'Nunito', sans-serif; font-weight: 800;font-size: 2.3rem;letter-spacing: 0.1rem;color: #28808A;}
+
+section > .main_visual { width: 100%; height: 80rem; display: flex; margin-top: 3rem; margin: 0 auto;
+  background-image: url("../img/animation.gif");
+background-repeat: no-repeat; background-size: cover;}
+section > .main_visual .menu { right: 0rem; position: fixed; margin-top: -8rem;}
+
+
+section > .main_visual .menu .bt_01 {width: 13rem; height: 14.9rem; margin-bottom: 1rem; }
+section > .main_visual .menu .bt_01:hover {background-image:url("../img/01_vl_01.gif" );
+background-position: left;background-repeat: no-repeat;}
+
+
+
+section > .main_visual .menu .bt_02 {width: 13rem; height: 14.9rem; margin-bottom: 1rem;}
+section > .main_visual .menu .bt_02:hover {background-image:url("../img/01_vl_02.gif" );
+background-position: left; background-repeat: no-repeat; }
+
+
+section > .main_visual .menu .bt_03 {width: 13rem; height: 14.9rem; margin-bottom: 1rem;}
+section > .main_visual .menu .bt_03:hover {background-image:url("../img/01_vl_03.gif");
+background-position: left; background-repeat: no-repeat;}
+
+section > .main_visual .menu .bt_04 {width: 13rem; height: 14.9rem; margin-bottom: 1rem;}
+section > .main_visual .menu .bt_04:hover {background-image:url("../img/01_vl_04.gif");
+background-position:left; background-repeat: no-repeat;}
+
+section > .main_visual .menu .bt_05 {width: 13rem; height: 14.9rem; }
+section > .main_visual .menu .bt_05:hover {background-image:url("../img/01_vl_05.gif");
+background-position: left; background-repeat: no-repeat;}
+
+section > .main_visual .menu .bt { margin-bottom: 1rem; margin-left:101px; }
+section > .topbt {display:scroll;position:fixed;bottom:25px;right:45px;cursor:pointer;}
+
+
+
+
+.contents {padding-top: 15rem; width: 100%; text-align: center; padding-bottom: 3rem; margin: 0 auto;}
+section .title {margin-top: 35rem; margin-bottom: 35rem;}
+.work >article {margin-bottom: 18rem;}
+.box05 {margin-top: 35rem;}
+
+
+footer {width: 100%; background-color:#28808A;}
+footer > .main_footer_wrap {width: 100rem; height: 11.5rem;
+display: flex;justify-content: space-between;align-items: center; margin:0 auto;}
+footer > .main_footer_wrap .footer_logo {float: left;}
+footer > .main_footer_wrap .footer_txt {float: right;line-height: 11.5rem; font-family: 'Nunito', sans-serif; font-weight: 700;font-size: 1.9rem;letter-spacing: 0.05rem;color: #ffffff;}
